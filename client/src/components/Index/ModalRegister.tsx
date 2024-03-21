@@ -51,7 +51,7 @@ function ModalLogin() {
                 Keep me logged in
               </p>
             </div> */}
-            <button className="w-full h-[45px] bg-[#121F33] mt-8 text-white nunito-font rounded-md text-[16px] font-medium">
+            <button className="w-full h-[45px] bg-[#003e86] mt-8 text-white nunito-font rounded-md text-[16px] font-bold">
               Register
             </button>
           </form>

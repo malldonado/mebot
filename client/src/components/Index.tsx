@@ -1,6 +1,5 @@
 import Container from './Index/Container';
-// import Footer from './components/Index/Footer/Footer';
-import Band from './Index/Band';
+// import Band from './Index/Band';
 import Navbar from './Index/Navbar';
 
 function index() {

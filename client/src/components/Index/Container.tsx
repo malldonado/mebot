@@ -1,5 +1,6 @@
 import Banner from './Banner.tsx';
 import Business from './Business.tsx';
+import Footer from './Footer.tsx';
 import Smartphone from './Smartphone.tsx';
 import Video from './Video.tsx';
 import Wave from './Wave.tsx';
@@ -17,6 +18,7 @@ function container() {
       <Business />
       <Video />
       {/* <Tracking/> */}
+      <Footer/>
     </div>
   );
 }

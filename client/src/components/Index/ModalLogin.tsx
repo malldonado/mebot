@@ -3,7 +3,7 @@ import LogoModal from '../../images/logo.svg';
 function ModalLogin() {
 
   return (
-    <div className="m-auto relative">
+    <div className="m-auto relative w-full">
       <div className='w-[90%] mt-8 mx-auto mb-auto h-full p-0 z-[1000] overflow-y-hidden'>
         <img className="h-[32px] mt-8 mx-auto" alt="" src={LogoModal} />
         <div className="mt-10">
@@ -40,7 +40,7 @@ function ModalLogin() {
                 Keep me logged in
               </p>
             </div>
-            <button className="w-full h-[45px] bg-[#121F33] mt-6 text-white nunito-font rounded-md text-[16px] font-medium">
+            <button className="w-full h-[45px] bg-[#003e86] mt-6 text-white nunito-font rounded-md text-[16px] font-bold">
               Login
             </button>
           </form>

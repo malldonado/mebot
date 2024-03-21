@@ -7,7 +7,7 @@ function Video() {
       <div className="flex justify-center flex-col w-full items-center mt-5">
       <div className='h-[1000px] relative w-full'>
       <img className='w-full object-cover h-[800px]' src={Background} alt="" />
-        <img className="w-[400px] absolute bottom-0 mx-auto right-0 left-0" src={Chat} alt="GIF" />
+        <img className="w-[400px] absolute top-[45px] bottom-0 mx-auto right-0 left-0" src={Chat} alt="GIF" />
       </div>
       </div>
     </div>

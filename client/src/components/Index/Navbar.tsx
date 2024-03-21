@@ -13,7 +13,7 @@ function Navbar() {
   const customStyles = {
     content: {
       padding: '0',
-      width: '25%',
+      width: '450px',
       height: '580px',
       margin: 'auto',
       transform: 'unset',
@@ -82,12 +82,12 @@ function Navbar() {
           <ModalLogin />
           <IoCloseSharp
             onClick={closeModalLogin}
-            className="text-[30px] right-[10px] top-[10px] absolute fill-[#121F33] cursor-pointer"
+            className="text-[30px] right-[10px] top-[10px] absolute fill-[#003e86] cursor-pointer"
           />
           <p className="max-w-[90%] mx-auto mt-4 nunito-font text-black text-[14px] font-normal">
             Don't have an account?{' '}
             <a
-              className="text-[#121F33] cursor-pointer text-[15px] font-bold"
+              className="text-[#003e86] cursor-pointer text-[15px] font-bold"
               onClick={openModalRegister}
             >
               Sign up
@@ -102,7 +102,7 @@ function Navbar() {
         >
           <IoCloseSharp
             onClick={closeModalRegister}
-            className="text-[30px] right-[10px] top-[10px] absolute fill-[#121F33] cursor-pointer"
+            className="text-[30px] right-[10px] top-[10px] absolute fill-[#003e86] cursor-pointer"
           />
           <ModalRegister />
         </Modal>

@@ -1,8 +1,10 @@
-import React from 'react'
+import Body from "./Chat/Body"
 
 function Chat() {
   return (
-    <div>Chat</div>
+    <>
+    <Body/>
+    </>
   )
 }
 

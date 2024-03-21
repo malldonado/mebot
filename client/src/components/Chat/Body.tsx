@@ -1,9 +1,11 @@
-import React from 'react'
+import Navbar from './Navbar'
+import Conversation from './Conversation'
 
 function Body() {
   return (
-    <div>
-
+    <div className='flex justify-center items-start h-screen w-full relative bg-black'>
+      <Navbar/>
+      <Conversation/>
     </div>
   )
 }
